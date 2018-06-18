@@ -1,0 +1,46 @@
+{
+    "composer": {
+        "appId": "git-app",
+        "bridge": {
+            "avoidPolymerEventCache": "",
+            "binding": "",
+            "componentsPath": "./components/",
+            "composerEndpoint": "./composerMocks/",
+            "coreCache": true,
+            "debug": true,
+            "deployEndpoint": "",
+            "domMode": "",
+            "getPlatform": "",
+            "htmlPages": "",
+            "htmlPagesPath": "",
+            "i18nPath": "locales/",
+            "initialBundle": ["login.json"],
+            "initialTemplate" : "",
+            "mainNode": "",
+            "mocks": true,
+            "preCache": true,
+            "preRender": true,
+            "prplLevel": 1,
+            "remoteTemplates": "",
+            "routerLog": false,
+            "routes": "",
+            "skipNavigations": "",
+            "templatesPath": ""
+        },
+        "build": {
+            "componentsPath": "./components/",
+            "composerEndpoint": "./composerMocks/",
+            "cordovaScript" : "cordova.js",
+            "htmlPages": "",
+            "htmlPagesPath": "",
+            "i18nPath": "locales/",
+            "initialBundle": ["login.json"],
+            "initialTemplate" : "",
+            "prplLevel": 1,
+            "routes": "",
+            "templatesPath": "",
+            "transpile": true,
+            "transpileExclude": [ "cells-rxjs", "webcomponentsjs", "moment","d3", "bgadp*" ]
+        }
+    }
+}

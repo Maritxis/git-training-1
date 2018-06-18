@@ -1,0 +1,11 @@
+{
+  "template": {
+    "familyPath": "cells-template-zones",
+    "tag": "cells-template-zones",
+    "properties": {
+      "disableEdgeSwipe": true,
+      "headerFixed": true
+    }
+  },
+  "components": []
+}
